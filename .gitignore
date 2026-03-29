@@ -1,0 +1,45 @@
+# 嵌套的 Git 仓库（作为独立子模块管理）
+proactive-agent/
+self-improving-agent/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+/tmp/
+
+# 配置文件（含敏感信息）
+config.local.json
+*.local.json
+.secrets/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 笔记和草稿
+*.md~
+notes/
+drafts/
